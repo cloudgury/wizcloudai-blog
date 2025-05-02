@@ -23,7 +23,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 
 export default defineConfig({
   output: 'static',
-  site: 'https://github.com/cloudgury/wizcloudai-blog',
+  site: 'https://cloudgury.github.io/wizcloudai-blog',
   base: 'wizcloudai-blog',
 
   integrations: [
