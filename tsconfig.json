@@ -1,12 +1,8 @@
 {
   "extends": "astro/tsconfigs/strict",
-  "include": [".astro/types.d.ts", "**/*"],
+  "include": [".astro/types.d.ts", "**/*", ".github/workflows/astro.config.ts"],
   "exclude": ["dist"],
   "compilerOptions": {
-    "strictNullChecks": true,
-    "baseUrl": ".",
-    "paths": {
-      "@*": ["./src/*"]
-    }
+    "strictNullChecks": true
   }
 }
